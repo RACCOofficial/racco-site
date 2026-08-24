@@ -6,15 +6,15 @@
   height:100%;
   object-fit:cover;
   z-index:0;
-  opacity:.38;
+  opacity:.75;
 }
 
 .bg-overlay{
   position:fixed;
   inset:0;
   background:
-    linear-gradient(90deg,rgba(0,0,0,.78),rgba(0,0,0,.48)),
-    linear-gradient(180deg,rgba(0,0,0,.20),rgba(0,0,0,.68));
+    linear-gradient(90deg,rgba(0,0,0,.45),rgba(0,0,0,.20)),
+    linear-gradient(180deg,rgba(0,0,0,.10),rgba(0,0,0,.35));
   z-index:1;
   pointer-events:none;
 }
